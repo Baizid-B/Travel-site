@@ -1,0 +1,46 @@
+[
+      {
+        "_id": "1",
+        "photo": "https://i.ibb.co.com/X2g5Pg0/Baizid.jpg",
+        "name": "Baizid Bostami",
+        "rating": 4.5,
+        "description": "Amazing product! It exceeded my expectations and works flawlessly."
+      },
+      {
+        "_id": "2",
+        "photo": "https://i.ibb.co.com/HFZ6Q4Q/sompod.jpg",
+        "name": "Sompod",
+        "rating": 3.8,
+        "description": "Good overall, but there’s room for improvement in some features."
+      },
+      {
+        "_id": "3",
+        "photo": "https://i.ibb.co.com/GMSWxw9/sajid.jpg",
+        "name": "Sajid",
+        "rating": 5.0,
+        "description": "Absolutely perfect! I would highly recommend it to anyone."
+      },
+      {
+        "_id": "4",
+        "photo": "https://i.ibb.co.com/X2g5Pg0/Baizid.jpg",
+        "name": "Habib khan",
+        "rating": 3.2,
+        "description": "Amazing product! It exceeded my expectations and works flawlessly."
+      },
+      {
+        "_id": "5",
+        "photo": "https://i.ibb.co.com/HFZ6Q4Q/sompod.jpg",
+        "name": "Tarikul Islam",
+        "rating": 4.8,
+        "description": "Good overall, but there’s room for improvement in some features."
+      },
+      {
+        "_id": "6",
+        "photo": "https://i.ibb.co.com/GMSWxw9/sajid.jpg",
+        "name": "Sajid Islam",
+        "rating": 4.0,
+        "description": "Absolutely perfect! I would highly recommend it to anyone."
+      }
+]
+
+  

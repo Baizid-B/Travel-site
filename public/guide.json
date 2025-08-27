@@ -1,0 +1,468 @@
+[
+      {
+        "id": "TG001",
+        "name": "Md.Ab Muttalib",
+        "profileImage": "https://i.ibb.co.com/6RffMt1/Ab-Muttalib.jpg",
+        "gender": "Male",
+        "age": 24,
+        "contact": {
+          "email": "rahimuddin@example.com",
+          "phone": "+8801712345678",
+          "address": {
+            "street": "15/A Green Road",
+            "city": "Dhaka",
+            "postalCode": "1205",
+            "country": "Bangladesh"
+          }
+        },
+        "languages": ["Bengali", "English", "Hindi"],
+        "experienceYears": 10,
+        "specialties": ["Historical Sites", "Cultural Tours", "Nature Trails"],
+        "ratings": {
+          "averageRating": 4.8,
+          "totalReviews": 125
+        },
+        "availability": {
+          "isAvailable": true,
+          "workingHours": {
+            "start": "09:00",
+            "end": "06:00"
+          },
+          "daysOff": ["Friday"]
+        },
+        "serviceLocations": ["Dhaka", "Sundarbans", "Cox's Bazar"],
+        "licenseNumber": "BDTG20231234",
+        "certifications": [
+          {
+            "title": "Certified Tour Guide",
+            "issuedBy": "Bangladesh Tourism Board",
+            "year": 2018
+          },
+          {
+            "title": "Advanced Hospitality Training",
+            "issuedBy": "Hospitality Institute Dhaka",
+            "year": 2020
+          }
+        ],
+        "bio": "I have been working as a professional tour guide for over a decade, sharing my passion for the rich history and natural beauty of Bangladesh with travelers from around the globe.",
+        "socialLinks": {
+          "facebook": "https://facebook.com/rahim.guides",
+          "instagram": "https://instagram.com/rahim_guides"
+        }
+      },
+      {
+        "id": "TG002",
+        "name": "Jobaer Sorker",
+        "profileImage": "https://i.ibb.co.com/37PDJnS/Jobaer-Sorker.jpg",
+        "gender": "male",
+        "age": 28,
+        "contact": {
+          "email": "fatimakhan@example.com",
+          "phone": "+8801723456789",
+          "address": {
+            "street": "42/B Chittagong Lane",
+            "city": "Chittagong",
+            "postalCode": "4000",
+            "country": "Bangladesh"
+          }
+        },
+        "languages": ["Bengali", "English"],
+        "experienceYears": 5,
+        "specialties": ["Beach Tours","Adventure Tourism"],
+        "ratings": {
+          "averageRating": 3.1,
+          "totalReviews": 75
+        },
+        "availability": {
+          "isAvailable": false,
+          "workingHours": {
+            "start": "08:00",
+            "end": "04:00"
+          },
+          "daysOff": ["Saturday"]
+        },
+        "serviceLocations": ["Cox's Bazar", "Saint Martin's Island"],
+        "licenseNumber": "BDTG20214567",
+        "certifications": [
+          {
+            "title": "Eco-Tourism Specialist",
+            "issuedBy": "Green Tourism Academy",
+            "year": 2021
+          }
+        ],
+        "bio": "With a love for the outdoors and a dedication to eco-friendly tourism, I ensure my clients have a memorable and responsible travel experience.",
+        "socialLinks": {
+          "facebook": "https://facebook.com/fatima.guides",
+          "instagram": "https://instagram.com/fatima_guides"
+        }
+      },
+      {
+        "id": "TG003",
+        "name": "Kiron Roy",
+        "profileImage": "https://i.ibb.co.com/vH36Pqj/kironRoy.jpg",
+        "gender": "Male",
+        "age": 40,
+        "contact": {
+          "email": "abdulkarim@example.com",
+          "phone": "+8801711122233",
+          "address": {
+            "street": "23 Old Town",
+            "city": "Khulna",
+            "postalCode": "9100",
+            "country": "Bangladesh"
+          }
+        },
+        "languages": ["Bengali", "English", "Urdu"],
+        "experienceYears": 15,
+        "specialties": ["Wildlife Tours", "Sundarbans Tours"],
+        "ratings": {
+          "averageRating": 4.9,
+          "totalReviews": 200
+        },
+        "availability": {
+          "isAvailable": true,
+          "workingHours": {
+            "start": "07:00",
+            "end": "03:00"
+          },
+          "daysOff": ["Sunday"]
+        },
+        "serviceLocations": ["Sundarbans", "Khulna"],
+        "licenseNumber": "BDTG20181012",
+        "certifications": [
+          {
+            "title": "Wildlife Specialist",
+            "issuedBy": "Nature Bangladesh",
+            "year": 2015
+          }
+        ],
+        "bio": "I specialize in guided wildlife tours in the Sundarbans, helping visitors experience the beauty of Bengal tigers and other wildlife.",
+        "socialLinks": {
+          "facebook": "https://facebook.com/karim.guides"
+        }
+      },
+      {
+        "id": "TG004",
+        "name": "Md.Rana",
+        "profileImage": "https://i.ibb.co.com/yXD5qJm/MdRana.jpg",
+        "gender": "male",
+        "age": 32,
+        "contact": {
+          "email": "raziasultana@example.com",
+          "phone": "+8801912233445",
+          "address": {
+            "street": "67/C Hillview",
+            "city": "Sylhet",
+            "postalCode": "3100",
+            "country": "Bangladesh"
+          }
+        },
+        "languages": ["Bengali", "English"],
+        "experienceYears": 7,
+        "specialties": ["Tea Garden Tours", "Hiking"],
+        "ratings": {
+          "averageRating": 4.7,
+          "totalReviews": 95
+        },
+        "availability": {
+          "isAvailable": true,
+          "workingHours": {
+            "start": "10:00",
+            "end": "05:00"
+          },
+          "daysOff": ["Monday"]
+        },
+        "serviceLocations": ["Sylhet", "Jaflong", "Srimangal"],
+        "licenseNumber": "BDTG20190654",
+        "certifications": [
+          {
+            "title": "Eco-Tour Guide",
+            "issuedBy": "Bangladesh Eco Tourism",
+            "year": 2020
+          }
+        ],
+        "bio": "I love sharing the natural beauty of Sylhet and its stunning tea gardens with visitors.",
+        "socialLinks": {
+          "facebook": "https://facebook.com/razia.guides",
+          "instagram": "https://instagram.com/razia.guides"
+        }
+      },
+      {
+        "id": "TG005",
+        "name": "Mojahidul Islam",
+        "profileImage": "https://i.ibb.co.com/dcNYLgq/Mojahidul-Islam.jpg",
+        "gender": "Male",
+        "age": 50,
+        "contact": {
+          "email": "shahidul@example.com",
+          "phone": "+8801788888877",
+          "address": {
+            "street": "12 Rangamati Road",
+            "city": "Rangamati",
+            "postalCode": "4500",
+            "country": "Bangladesh"
+          }
+        },
+        "languages": ["Bengali", "English", "Chakma"],
+        "experienceYears": 20,
+        "specialties": ["Hill Tracts Tours", "Cultural Experiences"],
+        "ratings": {
+          "averageRating": 4.9,
+          "totalReviews": 300
+        },
+        "availability": {
+          "isAvailable": true,
+          "workingHours": {
+            "start": "06:00",
+            "end": "02:00"
+          },
+          "daysOff": ["Thursday"]
+        },
+        "serviceLocations": ["Rangamati", "Bandarban", "Khagrachari"],
+        "licenseNumber": "BDTG20051234",
+        "certifications": [
+          {
+            "title": "Hill Tracts Expert",
+            "issuedBy": "Bangladesh Travel Bureau",
+            "year": 2010
+          }
+        ],
+        "bio": "With two decades of experience, I bring in-depth knowledge about the Chittagong Hill Tracts and indigenous culture.",
+        "socialLinks": {
+          "facebook": "https://facebook.com/shahidul.guides"
+        }
+      },
+      {
+        "id": "TG006",
+        "name": "Partho",
+        "profileImage": "https://i.ibb.co.com/N6f0p5J/Partho.jpg",
+        "gender": "male",
+        "age": 27,
+        "contact": {
+          "email": "nasimaakter@example.com",
+          "phone": "+8801987654321",
+          "address": {
+            "street": "10/A Gulshan Avenue",
+            "city": "Dhaka",
+            "postalCode": "1212",
+            "country": "Bangladesh"
+          }
+        },
+        "languages": ["Bengali", "English"],
+        "experienceYears": 6,
+        "specialties": ["Shopping Tours", "City Sightseeing"],
+        "ratings": {
+          "averageRating": 4.6,
+          "totalReviews": 88
+        },
+        "availability": {
+          "isAvailable": true,
+          "workingHours": {
+            "start": "10:00",
+            "end": "07:00"
+          },
+          "daysOff": ["Sunday"]
+        },
+        "serviceLocations": ["Dhaka", "Savar", "Gazipur"],
+        "licenseNumber": "BDTG20190245",
+        "certifications": [
+          {
+            "title": "Urban Tourism Expert",
+            "issuedBy": "Bangladesh Tourism Authority",
+            "year": 2020
+          }
+        ],
+        "bio": "Specializing in urban tours, I offer an insider's guide to the best shopping spots and landmarks in Dhaka.",
+        "socialLinks": {
+          "facebook": "https://facebook.com/nasima.guides",
+          "instagram": "https://instagram.com/nasima.guides"
+        }
+      },
+      {
+        "id": "TG007",
+        "name": "sajid",
+        "profileImage": "https://i.ibb.co.com/y6y7rvd/sajid.jpg",
+        "gender": "Male",
+        "age": 34,
+        "contact": {
+          "email": "imranhossain@example.com",
+          "phone": "+8801776543210",
+          "address": {
+            "street": "5/C Halishahar",
+            "city": "Chittagong",
+            "postalCode": "4210",
+            "country": "Bangladesh"
+          }
+        },
+        "languages": ["Bengali", "English", "Chinese"],
+        "experienceYears": 8,
+        "specialties": ["Marine Tours", "Cultural Events"],
+        "ratings": {
+          "averageRating": 4.7,
+          "totalReviews": 110
+        },
+        "availability": {
+          "isAvailable": false,
+          "workingHours": {
+            "start": "08:00",
+            "end": "05:00"
+          },
+          "daysOff": ["Tuesday"]
+        },
+        "serviceLocations": ["Cox's Bazar", "Saint Martin's Island"],
+        "licenseNumber": "BDTG20180123",
+        "certifications": [
+          {
+            "title": "Certified Marine Guide",
+            "issuedBy": "Marine Tourism Academy",
+            "year": 2019
+          }
+        ],
+        "bio": "I guide tourists to enjoy the serenity of the Bay of Bengal and the unique cultural events of Chittagong.",
+        "socialLinks": {
+          "facebook": "https://facebook.com/imran.guides",
+          "instagram": "https://instagram.com/imran.guides"
+        }
+      },
+      {
+        "id": "TG008",
+        "name": "Solayman Sheikh",
+        "profileImage": "https://i.ibb.co.com/Mn2bBR8/solaymansheikh.jpg",
+        "gender": "Male",
+        "age": 45,
+        "contact": {
+          "email": "mizanrahman@example.com",
+          "phone": "+8801765432109",
+          "address": {
+            "street": "45/B Srimangal Road",
+            "city": "Srimangal",
+            "postalCode": "3210",
+            "country": "Bangladesh"
+          }
+        },
+        "languages": ["Bengali", "English"],
+        "experienceYears": 18,
+        "specialties": ["Tea Garden Tours", "Eco-Tourism"],
+        "ratings": {
+          "averageRating": 4.9,
+          "totalReviews": 210
+        },
+        "availability": {
+          "isAvailable": true,
+          "workingHours": {
+            "start": "07:00",
+            "end": "03:00"
+          },
+          "daysOff": ["Friday"]
+        },
+        "serviceLocations": ["Srimangal", "Sylhet"],
+        "licenseNumber": "BDTG20050145",
+        "certifications": [
+          {
+            "title": "Eco-Tourism Professional",
+            "issuedBy": "Bangladesh Eco Tourism Council",
+            "year": 2015
+          }
+        ],
+        "bio": "With nearly two decades of experience, I help visitors explore the natural beauty and serenity of tea gardens and rainforests.",
+        "socialLinks": {
+          "facebook": "https://facebook.com/mizan.guides",
+          "instagram": "https://instagram.com/mizan.guides"
+        }
+      },
+      {
+        "id": "TG009",
+        "name": "Sompod",
+        "profileImage": "https://i.ibb.co.com/kcRyQkB/sompod.jpg",
+        "gender": "male",
+        "age": 31,
+        "contact": {
+          "email": "parvinyasmin@example.com",
+          "phone": "+8801988765432",
+          "address": {
+            "street": "12 Hill View",
+            "city": "Bandarban",
+            "postalCode": "4600",
+            "country": "Bangladesh"
+          }
+        },
+        "languages": ["Bengali", "English", "Chakma"],
+        "experienceYears": 7,
+        "specialties": ["Hill Tracts Exploration", "Tribal Culture"],
+        "ratings": {
+          "averageRating": 4.8,
+          "totalReviews": 145
+        },
+        "availability": {
+          "isAvailable": false,
+          "workingHours": {
+            "start": "09:00",
+            "end": "05:00"
+          },
+          "daysOff": ["Monday"]
+        },
+        "serviceLocations": ["Bandarban", "Rangamati"],
+        "licenseNumber": "BDTG20170789",
+        "certifications": [
+          {
+            "title": "Tribal Tourism Specialist",
+            "issuedBy": "Bangladesh Tribal Council",
+            "year": 2021
+          }
+        ],
+        "bio": "I guide travelers through the lush greenery and fascinating tribal cultures of the Chittagong Hill Tracts.",
+        "socialLinks": {
+          "facebook": "https://facebook.com/parvin.guides",
+          "instagram": "https://instagram.com/parvin.guides"
+        }
+      },
+      {
+        "id": "TG010",
+        "name": "Tamjid Rahman",
+        "profileImage": "https://i.ibb.co.com/6RHNfCc/Tamjid-Rahman.jpg",
+        "gender": "Male",
+        "age": 38,
+        "contact": {
+          "email": "tariqahmed@example.com",
+          "phone": "+8801723450987",
+          "address": {
+            "street": "9 Old Dhaka Lane",
+            "city": "Dhaka",
+            "postalCode": "1100",
+            "country": "Bangladesh"
+          }
+        },
+        "languages": ["Bengali", "English", "Arabic"],
+        "experienceYears": 12,
+        "specialties": ["Religious Tourism", "Old Dhaka Food Tours"],
+        "ratings": {
+          "averageRating": 4.7,
+          "totalReviews": 170
+        },
+        "availability": {
+          "isAvailable": true,
+          "workingHours": {
+            "start": "08:30",
+            "end": "04:30"
+          },
+          "daysOff": ["Sunday"]
+        },
+        "serviceLocations": ["Dhaka", "Savar"],
+        "licenseNumber": "BDTG20120987",
+        "certifications": [
+          {
+            "title": "Cultural Tourism Specialist",
+            "issuedBy": "Heritage Bangladesh",
+            "year": 2018
+          }
+        ],
+        "bio": "Specializing in religious sites and Old Dhaka's rich food culture, I offer an immersive and unforgettable experience for travelers.",
+        "socialLinks": {
+          "facebook": "https://facebook.com/tariq.guides",
+          "instagram": "https://instagram.com/tariq.guides"
+        }
+      }
+]
+
+  
+  

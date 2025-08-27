@@ -1,0 +1,36 @@
+[
+    {
+      "_id": "1",
+      "photo": "https://i.ibb.co.com/whB2hC4/sylhet.jpg",
+      "tourType": "Adventure",
+      "tripTitle": "Mountain Trekking Expedition",
+      "price": "$299",
+      "category": "popular"
+    },
+   
+    {
+      "_id": "3",
+      "photo": "https://i.ibb.co.com/02wrz7T/shatgumbus.jpg",
+      "tourType": "Cultural",
+      "tripTitle": "Historic City Walking Tour",
+      "price": "$149",
+      "category": "popular"
+    },
+    {
+        "_id": "2",
+        "photo": "https://i.ibb.co.com/GccgxhX/bandorbon.jpg",
+        "tourType": "Luxury",
+        "tripTitle": "Beachside Resort Getaway",
+        "price": "$499",
+        "category": "popular"
+      },
+    {
+      "_id": "4",
+        "photo": "https://i.ibb.co.com/M8mdfQ8/sornerga.jpg",
+        "tourType": "Cultural",
+        "tripTitle": "Historic City Walking Tour",
+        "price": "$149",
+        "category": ""
+    }
+  ]
+  
