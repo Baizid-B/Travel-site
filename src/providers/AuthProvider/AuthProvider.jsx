@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react";
-import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, onAuthStateChanged, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
+import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, onAuthStateChanged, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
 import { app } from "../../firebase/firebase.config";
 
 export const AuthContext = createContext(null)
@@ -41,6 +41,13 @@ const AuthProvider = ({children}) => {
         return signInWithPopup(auth, googleProvider)
     }
 
+    // update user profiles---------
+    const updateUserProfile = (name,photo) =>{
+        return updateProfile(auth.currentUser,{
+            displayName: name, photoURL:photo
+        });
+    }
+
     // Checking whether the user is Acha or not-------
     useEffect(() =>{
         const unsubscribe = onAuthStateChanged(auth, currentUser =>{
@@ -61,7 +68,8 @@ const AuthProvider = ({children}) => {
         loginUser,
         userLoggedOut,
         passwordReset,
-        googleSignIn
+        googleSignIn,
+        updateUserProfile
     }
 
     return (

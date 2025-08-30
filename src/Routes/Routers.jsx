@@ -9,6 +9,7 @@ import ForgetPassword from "../pages/Login/ForgetPassword";
 import AllPackages from "../pages/AllPackages/AllPackages";
 import AllGuides from "../pages/AllGuides/AllGuides";
 import PackagesDetails from "../pages/packagesDetails/packagesDetails";
+import PrivateRoutes from "./PrivateRoutes";
 
   export const router = createBrowserRouter([
     {
@@ -21,7 +22,7 @@ import PackagesDetails from "../pages/packagesDetails/packagesDetails";
         },
         {
           path:'AboutUs',
-          element:<AboutUs></AboutUs>,
+          element:<PrivateRoutes><AboutUs></AboutUs></PrivateRoutes>,
         },
         {
           path:'register',
@@ -45,7 +46,7 @@ import PackagesDetails from "../pages/packagesDetails/packagesDetails";
         },
         {
           path:'allguides',
-          element:<AllGuides></AllGuides>
+          element:<PrivateRoutes><AllGuides></AllGuides></PrivateRoutes>
         },
         {
           path:'/*',
