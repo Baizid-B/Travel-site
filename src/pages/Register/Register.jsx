@@ -15,6 +15,7 @@ const Register = () => {
   const from = location.state?.from?.pathname || "/";
   const [showPassword, setShowPassword] = useState(false);
 
+
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
   };
@@ -22,38 +23,43 @@ const Register = () => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
 
   const onSubmit = (data) => {
     console.log(data);
-    createUser(data.email, data.password).then((result) => {
+    createUser(data.email, data.password)
+    .then((result) => {
       const loggedUser = result.user;
       // console.log(loggedUser);
 
       // updateProfiles
-      updateUserProfile(data.name, data.photoUrl)
-      then(() =>{
+
+      updateUserProfile(data.name, data.photoURL)
+      .then(() =>{
         console.log("user profile info updated");
+
+          reset();
+          Swal.fire({
+          position: "top-center",
+          icon: "success",
+          title: "Successfully Registration",
+          showConfirmButton: false,
+          timer: 1500,
+        });
+        navigate(from, { replace: true });
+      });
+        
       })
       .catch(errors => console.log(errors))
 
-
-      Swal.fire({
-        position: "top-center",
-        icon: "success",
-        title: "Successfully Registration",
-        showConfirmButton: false,
-        timer: 1500,
-      });
-      navigate(from, { replace: true });
-    });
   };
 
   return (
     <div className="relative flex items-center justify-center min-h-screen">
       <Helmet>
-        <title>Travel | Register</title>
+        <title>Travel | Register </title>
       </Helmet>
 
       {/* 🔹 Background Video */}
@@ -151,7 +157,7 @@ const Register = () => {
           <div>
             <label className="text-white font-semibold">Photo URL</label>
             <input
-              type="file"
+              type="input"
               {...register("photoUrl", { required: true })}
               className="file-input file-input-bordered w-full"
             />
