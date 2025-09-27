@@ -21,23 +21,23 @@ const AboutUs = () => {
                 </div>
 
                 {/* Main-Content */}
-                <div className='flex items-start gap-28 border p-8 shadow-lg hover:'>
-                    <div className=''>
-                        <figure className='w-[400px] overflow-hidden'>
-                            <img className='overflow-hidden duration-700 hover:scale-110' src={myImg} alt="About Image" />
+                <div className='flex flex-col md:flex-row items-start gap-16 border p-4 shadow-lg'>
+                    <div className='space-y-5 w-[48%]'>
+                        <figure className='w-full overflow-hidden h-[50%]'>
+                            <img className='overflow-hidden duration-700 hover:scale-110 ' src={myImg} alt="About Image" />
                         </figure>
                         <figure>
                             <img className='w-14' src={mySignature} alt="" />
                         </figure>
                     </div>
 
-                    <div className='space-y-6'>
+                    <div className='space-y-6  w-[100%]'>
                        <div>
                             <h1 className='text-3xl font-bold'>Baizid Bostami,</h1>
                             <p className='font-light'>front-End Developer</p>
                        </div>
                         <p className='leading-relaxed text-lg'>A passionate and detail-oriented Front-End Developer with a strong focus on creating responsive, user-friendly, and visually appealing web applications. Skilled in modern technologies such as HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS, and DaisyUI, with a keen eye for design and usability. Experienced in translating UI/UX wireframes into high-quality code, optimizing performance, and ensuring cross-browser compatibility. Dedicated to delivering seamless user experiences while collaborating effectively with back-end developers, designers, and stakeholders to bring ideas to life. Always eager to learn and adapt to new trends, tools, and best practices in the rapidly evolving front-end ecosystem.</p>
-                        <div className='flex justify-between item-center'>
+                        <div className='flex flex-col md:flex-row space-y-5 justify-between item-center'>
                            
                             {/* Experience*/}
                             <div className='space-y-2'>

@@ -35,10 +35,10 @@ const OurGuidesItem = ({ guides }) => {
              top-2
              left-2
              uppercase
-           text-white
+           text-black
              font-bold 
-             w-1/3 
-           bg-red-600
+             w-auto 
+           bg-white
              px-4
              py-1 
              rounded-xl'>Best Guide</p>

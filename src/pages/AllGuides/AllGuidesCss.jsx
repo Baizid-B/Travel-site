@@ -104,17 +104,6 @@ const AllGuidesCss = ({guides}) => {
                 <strong>Contact:</strong> {contact.phone} | {contact.email}
                 </p>
 
-                {/* <p class="text-gray-800">
-                <strong>Certifications:</strong> Certification
-                </p>
-                <ul class="list-disc pl-6 text-gray-600">
-                    {/* {
-                        certifications.map((certification,index) =>(
-                        <li key={certification}>
-                            {certification}
-                        </li>))
-                    } 
-                </ul> */}
                 <div class="flex items-center">
                     <a
                         href={socialLinks.facebook}

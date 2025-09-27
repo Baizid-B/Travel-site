@@ -28,10 +28,11 @@ const Banner = () => {
             showStatus={false} 
             showArrows={false}
         >
+            {/*   */}
             {images.map((image, index) => (
-                <div key={index}>
-                    <div className="overflow-hidden h-[450px] md:h-[600px] lg:h-[900px]">
-                        <img className="w-[100%] h-[100%]  bg-cover" src={image.src} alt={image.caption} />
+                <div key={index} className="relative">
+                    <div className="overflow-hidden h-[450px] md:h-[600px] lg:h-[840px]">
+                        <img className="w-[100%] h-[100%]  bg-cover bg-repeat" src={image.src} alt={image.caption} />
                     </div>
                     
                     <div className="absolute inset-0 bg-[rgba(0,0,0,0.5)] flex justify-center">

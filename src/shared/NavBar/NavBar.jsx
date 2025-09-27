@@ -49,69 +49,15 @@ const NavBar = () => {
         </>
 
     return (
-        // <nav>
-        //     <div className={`${isHome ? 'navbar fiexd text-red px-4 bg-red w-full transition-all duration-300' : 'navbar fiexd px-4 bg-white w-full transition-all duration-300'}`}>
-        //         {/* logo */}
-        //         <div className="navbar-start text-white text-2xl font-bold flex flex-row items-center">
-        //             <img className="w-12" src={logo} alt="Logo" />
-        //             <h1 className="text-black">Travel</h1>
-        //         </div>
-
-        //         {/* menu text for desktop */}
-        //         <div className="navbar-center">
-        //             <ul className="hidden md:flex space-x-4 uppercase">
-        //                 {link}
-        //             </ul>
-        //         </div>
-
-        //         {/* login/logout buttons */}
-        //         <div className="navbar-end">
-        //             <ul className="items-center gap-4 hidden md:flex uppercase group">
-        //                 {
-        //                     user ? (
-        //                         <li onClick={handleLogOut} className="py-2 text-black">
-        //                             <Link to='login'>Log Out</Link>
-        //                         </li>
-        //                     ) : (
-        //                         <>
-        //                             <li className="py-2 text-black hover:border-b-2 border-sky-500 hover:transition-transform">
-        //                                 <NavLink to='register'>Register</NavLink>
-        //                             </li>
-        //                             <li className="py-2 text-black hover:border-b-2 border-sky-500 hover:transition-transform">
-        //                                 <NavLink to='login'>Login</NavLink>
-        //                             </li>
-        //                         </>
-        //                     )
-        //                 }
-        //             </ul>
-        //         </div>
-
-        //         {/* hamburger icon */}
-        //         <div className="md:hidden">
-        //             <div onClick={toggleMenu} className="text-black text-2xl cursor-pointer transition-transform duration-400 hover:rotate-[135deg]">
-        //                 {
-        //                     isOpen ? <IoMdClose /> : <AiOutlineMenu />
-        //                 }
-        //             </div>
-        //         </div>
-        //     </div>
-
-        //     {/* Mobile Menu with animation */}
-        //     <div className={`fixed top-0 left-0 z-40 bg-white w-full h-full transition-transform duration-700 ease-in-out transform md:hidden ${isOpen ? "translate-y-0" : "translate-y-full"}`}>
-        //         <div className="px-5 pt-20">
-        //             <ul className="space-y-2">
-        //                 {link}
-        //             </ul>
-        //         </div>
-        //     </div>
-        // </nav>
 
         <nav>
             <div className= "navbar px-4 w-full transition-all duration-300">
                 {/* logo */}
                 <div className="navbar-start text-white text-2xl font-bold flex flex-row items-center">
-                    <img className="w-12" src={logo} alt="Logo" />
-                    <h1 className="text-black">Travel</h1>
+                    <a href="#" className="navbar-start text-white text-2xl font-bold flex flex-row items-center">
+                        <img className="w-12" src={logo} alt="Logo" />
+                        <h1 className="text-black">Travel</h1>
+                    </a>
                 </div>
 
                 {/* desktop menu */}
