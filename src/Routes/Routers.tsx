@@ -8,8 +8,9 @@ import Login from "../pages/Login/Login";
 import ForgetPassword from "../pages/Login/ForgetPassword";
 import AllPackages from "../pages/AllPackages/AllPackages";
 import AllGuides from "../pages/AllGuides/AllGuides";
-import PackagesDetails from "../pages/packagesDetails/packagesDetails";
+
 import PrivateRoutes from "./PrivateRoutes";
+import PackagesDetails from "../pages/packagesDetails/PackagesDetails";
 
   export const router = createBrowserRouter([
     {
