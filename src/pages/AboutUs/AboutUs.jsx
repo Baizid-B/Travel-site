@@ -37,7 +37,7 @@ const AboutUs = () => {
                             <p className='font-light'>front-End Developer</p>
                        </div>
                         <p className='leading-relaxed text-lg'>A passionate and detail-oriented Front-End Developer with a strong focus on creating responsive, user-friendly, and visually appealing web applications. Skilled in modern technologies such as HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS, and DaisyUI, with a keen eye for design and usability. Experienced in translating UI/UX wireframes into high-quality code, optimizing performance, and ensuring cross-browser compatibility. Dedicated to delivering seamless user experiences while collaborating effectively with back-end developers, designers, and stakeholders to bring ideas to life. Always eager to learn and adapt to new trends, tools, and best practices in the rapidly evolving front-end ecosystem.</p>
-                        <div className='flex flex-col md:flex-row space-y-5 justify-between item-center'>
+                        <div className='flex-row gap-10 md:flex md:gap-16'>
                            
                             {/* Experience*/}
                             <div className='space-y-2'>

@@ -10,7 +10,7 @@ const OurGuides = () => {
                 <h1 className="text-center text-4xl ">Meet Our Guides</h1>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 px-5 overflow-hidden">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 px-5 gap-3 overflow-hidden">
                 {
                     rating.map(guides => <OurGuidesItem key={guides.id} guides={guides}></OurGuidesItem>)
                 }

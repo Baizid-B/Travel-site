@@ -1,30 +1,32 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import OurGuides from '../Our Guides/OurGuides';
-import OurReview from '../Our Review/OurReview';
+import OurPackages from '../ourpackages/OurPackages';
+
 
 const ReviewAndPackages = () => {
     return (
         <Tabs>
             <div>
-                <TabList className="p-0 flex justify-center items-center gap-8">
+                <TabList className="p-0 flex justify-center items-center gap-3 cursor-pointer">
                     <Tab
                         className="py-2 px-4 shadow-md border focus:outline-none"
                         selectedClassName="bg-blue-600 text-white"
                     >
-                        Our Review
+                        Our Packages
                     </Tab>
                     <Tab
                         className="py-2 px-4 shadow-md border focus:outline-none"
                         selectedClassName="bg-blue-600 text-white"
                     >
-                        Our Guides
+                        Meet Our Tour Guides
                     </Tab>
                 </TabList>
             </div>
 
             <TabPanel>
-                <OurReview />
+                {/* <OurReview /> */}
+                <OurPackages></OurPackages>
             </TabPanel>
 
             <TabPanel>

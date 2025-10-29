@@ -65,6 +65,7 @@ const Login = () => {
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="bg-sky-500 bg-opacity-60 p-8 rounded-lg shadow-lg w-full max-w-md">
           <form onSubmit={handleLogin} className="card-body">
+
             {/* Email Field */}
             <div className="form-control">
               <label className="label">
@@ -113,7 +114,7 @@ const Login = () => {
 
             {/* Submit Button */}
             <div className="form-control mt-6">
-              <button className="btn bg-sky-500 border-0 text-white hover:text-black font-semibold text-lg">
+              <button className="btn bg-white border-0 text-black font-semibold text-lg">
                 Login
               </button>
             </div>

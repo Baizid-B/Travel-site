@@ -22,7 +22,7 @@ const OurGuidesItem = ({ guides }) => {
 
   return (
 
-    <div className="card card-compact bg-sky-400 md:w-5/6 mx-auto mb-10 shadow-xl overflow-hidden">
+    <div className="card card-compact bg-sky-400 md:w-[100%] mx-auto mb-10 shadow-xl rounded-none overflow-hidden">
         <div>
             <figure className='relative'>
                 <img
@@ -41,7 +41,7 @@ const OurGuidesItem = ({ guides }) => {
            bg-white
              px-4
              py-1 
-             rounded-xl'>Best Guide</p>
+             rounded-none'>Best Guide</p>
 
         </div>
 

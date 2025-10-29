@@ -32,10 +32,9 @@ const Register = () => {
     createUser(data.email, data.password)
     .then((result) => {
       const loggedUser = result.user;
-      // console.log(loggedUser);
+        console.log(loggedUser);
 
       // updateProfiles
-
       updateUserProfile(data.name, data.photoURL)
       .then(() =>{
         console.log("user profile info updated");
@@ -75,8 +74,8 @@ const Register = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60"></div>
 
       {/* 🔹 Register Box */}
-      <div className="relative bg-white/10 backdrop-blur-md rounded-2xl shadow-lg p-6 w-full max-w-md">
-        <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+      <div className="relative bg-sky-500 bg-opacity-60 rounded-2xl shadow-lg p-6 w-full max-w-md">
+        <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
 
           {/* Name */}
           <div>
@@ -171,7 +170,7 @@ const Register = () => {
           {/* Submit */}
           <button
             type="submit"
-            className="w-full bg-sky-500 text-white py-2 rounded-lg font-bold hover:bg-sky-600 transition"
+            className="w-full bg-sky-500 text-black py-2 rounded-lg font-bold transition"
           >
             Sign Up
           </button>
