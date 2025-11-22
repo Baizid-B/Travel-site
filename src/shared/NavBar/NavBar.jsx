@@ -5,11 +5,13 @@ import { IoMdClose } from "react-icons/io";
 import logo from "../../assets/logo/logo.png"
 import userImage from "../../assets/logo/user.png"
 import { AuthContext } from "../../providers/AuthProvider/AuthProvider";
-import { h1 } from "framer-motion/client";
 
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const { user, userLoggedOut } = useContext(AuthContext);
+
+
+    console.log(user)
 
 
     const toggleMenu = () => {
@@ -56,7 +58,7 @@ const NavBar = () => {
             <div className= "navbar px-4 w-full transition-all duration-300">
                 {/* logo */}
                 <div className="navbar-start text-white text-2xl font-bold flex flex-row items-center">
-                    <a href="#" className="navbar-start text-white text-2xl font-bold flex flex-row items-center">
+                    <a href="/" className="navbar-start text-white text-2xl font-bold flex flex-row items-center">
                         <img className="w-12" src={logo} alt="Logo" />
                         <h1 className="text-black">Travel</h1>
                     </a>
@@ -72,44 +74,12 @@ const NavBar = () => {
                 {/* auth button */}
                 <div className="navbar-end">
                     <ul className="items-center gap-4 hidden md:flex uppercase group">
-                        {/* {
-                            user ? <>
-                                <div className="dropdown dropdown-end">
-                                    <div tabIndex={0} role="button" className="w-[50px] h-[50px] btn bg-red-400 rounded-[100%] p-2">
-                                        <img 
-                                            src={user?.photoURL || userImage} 
-                                            alt="User Avatar" 
-                                            className="w-full h-full object-cover"
-                                        />
-                                    </div>
-
-                                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-50 w-52 p-2 shadow-sm">
-                                        <li><a>{user?.displayName}</a></li>
-                                        <li onClick={handleLogOut} className="py-2 text-black">
-                                            <Link to='login'>Log Out</Link>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </> : (
-                                <>
-                                    <li className="py-2 text-black hover:border-b-2 border-sky-500 hover:transition-transform">
-                                        <NavLink to='register'>Register</NavLink>
-                                    </li>
-                                    <li className="py-2 text-black hover:border-b-2 border-sky-500 hover:transition-transform">
-                                        <NavLink to='login'>Login</NavLink>
-                                    </li>
-                                </>
-                            )
-                        } */}
-
-
                             {
                             user ? (
                                 <div className="dropdown dropdown-end">
                                     <div tabIndex={0} role="button" className="w-[50px] h-[50px] btn bg-red-400 rounded-full p-0 overflow-hidden">
                                         <img 
-                                            src={ userImage|| user?.photoURL} 
+                                            src={ user?.photoURL || userImage} 
                                             alt="User Avatar" 
                                             className="w-full h-full object-cover"
                                         />

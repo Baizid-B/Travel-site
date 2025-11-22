@@ -11,6 +11,7 @@ import AllGuides from "../pages/AllGuides/AllGuides";
 
 import PrivateRoutes from "./PrivateRoutes";
 import PackagesDetails from "../pages/packagesDetails/PackagesDetails";
+import Review from "../pages/Review/Review";
 
   export const router = createBrowserRouter([
     {
@@ -23,7 +24,9 @@ import PackagesDetails from "../pages/packagesDetails/PackagesDetails";
         },
         {
           path:'AboutUs',
-          element:<PrivateRoutes><AboutUs></AboutUs></PrivateRoutes>,
+          element:<PrivateRoutes>
+                          <AboutUs></AboutUs>
+                  </PrivateRoutes>,
         },
         {
           path:'register',
@@ -48,6 +51,13 @@ import PackagesDetails from "../pages/packagesDetails/PackagesDetails";
         {
           path:'allguides',
           element:<PrivateRoutes><AllGuides></AllGuides></PrivateRoutes>
+        },
+        {
+          path:'review',
+          element:
+              <PrivateRoutes> 
+                  <Review></Review>
+             </PrivateRoutes>
         },
         {
           path:'/*',

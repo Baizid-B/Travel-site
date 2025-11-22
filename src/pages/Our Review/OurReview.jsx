@@ -25,7 +25,7 @@ const OurReview = () => {
 
     return (
         <div className='px-10 my-16'>
-            <div className='mt-20 mb-20'>
+            <div className=''>
                 <h1 className='text-4xl text-center'>Our Review</h1>
             </div>
 
